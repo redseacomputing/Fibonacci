@@ -15,15 +15,16 @@ See the testlist below.
 
 ##Testlist
 
-* method should return an integer number
-* method should take an integer number as parameter
-  
-* zero should return 0
-* 1 should return 1
-* 2 should return 1
-* 3 should return 2
-* 4 should return 3
-* 5 should return 5
-* 6 should return 8
-* 7 should return 13
+- [X] method should return an integer number
+- [X] method should take an integer number as parameter
+<div></div>
+
+- [X] 0 should return 0
+- [X] 1 should return 1 
+- [X] 2 should return 1
+- [X] 3 should return 2
+- [ ] 4 should return 3
+- [ ] 5 should return 5
+- [ ] 6 should return 8
+- [ ] 7 should return 13
 
