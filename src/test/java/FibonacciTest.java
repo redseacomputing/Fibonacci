@@ -33,9 +33,57 @@ class FibonacciTest {
         assertEquals(2, fib.getFibonacciOf(3));
     }
 
-    @Disabled
     @Test
     void shouldReturn3On4() {
         assertEquals(3, fib.getFibonacciOf(4));
     }
+
+    @Test
+    void shouldReturn5On5() {
+        assertEquals(5, fib.getFibonacciOf(5) );
+    }
+
+
+    @Test
+    void shouldReturn6On8() {
+        assertEquals(8, fib.getFibonacciOf(6) );
+    }
+
+
+    @Test
+    void shouldReturnOn8() {
+        assertEquals(13, fib.getFibonacciOf(7) );
+    }
+
+    @Disabled
+    @Test
+    void ValueOf6() {
+        assertEquals(1, fib.getFibonacciOf(6));
+    }
+
+    @Disabled
+    @Test
+    void ValueOf19() {
+        assertEquals(2, fib.getFibonacciOf(19));
+    }
+
+    @Disabled
+    @Test
+    void ValueOf28() {
+        assertEquals(3, fib.getFibonacciOf(28));
+    }
+
+    @Disabled
+    @Test
+    void ValueOf36() {
+        assertEquals(4, fib.getFibonacciOf(36));
+    }
+
+    @Disabled
+    @Test
+    void ValueOf38() {
+        assertEquals(5, fib.getFibonacciOf(38));
+    }
+
+
 }

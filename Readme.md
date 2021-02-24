@@ -23,8 +23,11 @@ See the testlist below.
 - [X] 1 should return 1 
 - [X] 2 should return 1
 - [X] 3 should return 2
-- [ ] 4 should return 3
-- [ ] 5 should return 5
-- [ ] 6 should return 8
-- [ ] 7 should return 13
+- [X] 4 should return 3
+- [X] 5 should return 5
+- [X] 6 should return 8
+- [] 7 should return 13
+
+## Alghoritmus
+take actual value and sum with last one
 
